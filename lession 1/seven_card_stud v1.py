@@ -192,13 +192,6 @@ def get_long_flush(cards):
         if len(cards) >= 5:
             return cards
     return None
-
-# ------------------
-# Provided Functions
-# 
-# You may want to use some of the functions which
-# you have already defined in the unit to write 
-# your best_hand function.
     
 def test_best_hand():
     assert (sorted(best_hand("6C 7C 8C 9C TC 5C JS".split()))
